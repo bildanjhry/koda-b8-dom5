@@ -7,8 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div>
+            <a 
+            class="logo"
+            href="">Brand</a>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+            <div>
+                <button class="hamburger-menu-btn">
+                <img
+                    type="button"
+                    width="15px"
+                    height="15px" 
+                    src="./assets/hamburger.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="hamburger-menu-list">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
     <div class="container">
         <form class="input-form">
+            <label for="password">Password</label>
             <input 
             class="password"
             type="password" name="password" id="password">
@@ -20,9 +61,8 @@
                 height="15px"
                 src="./assets/hide.png" alt="">
             </button>
-        </div>
-    </form>
-
+        </form>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>
