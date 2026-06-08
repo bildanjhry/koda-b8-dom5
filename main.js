@@ -5,11 +5,11 @@ function handleWatchPass(){
   const input = document.getElementById("password")
   if(input.type === "password") {
       input.type = "text"
-      watchImage.setAttribute("src", "./show.png")
+      watchImage.setAttribute("src", "./assets/show.png")
     }
     else {
       input.type = "password"
-      watchImage.setAttribute("src", "./hide.png")
+      watchImage.setAttribute("src", "./assets/hide.png")
     }
 }
 
